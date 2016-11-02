@@ -32,6 +32,7 @@ import java.util.Iterator;
  */
 public class HeapSorter implements Iterator<Integer> {
 	PriorityQueue<Integer> Q;
+	
 
 	public HeapSorter() {
 		this.Q = new PriorityQueue<Integer>();
